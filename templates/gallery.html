@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Courses | IITMS College
+{% endblock %}
+
+{% block content %}
+  <!-- Header Start -->
+  <div class="container-fluid bg-primary py-5 mb-5 page-header">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+          <h1 class="display-3 text-white animated slideInDown">Gallery</h1>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+              <li class="breadcrumb-item">
+                <a class="text-white" href="#">Home</a>
+              </li>
+              <li class="breadcrumb-item text-white active" aria-current="page">Gallery</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header End -->
+
+  <!-- Gallery Start -->
+  <div class="container-xxl py-5 gallery">
+    <div class="container">
+      <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h6 class="section-title bg-white text-center text-primary px-3">Gallery</h6>
+        <h1 class="mb-5">Our Photo Gallery</h1>
+      </div>
+      <div class="row g-3">
+        <div class="col-lg-7 col-md-6">
+          <div class="row g-3">
+            <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+              <a class="position-relative d-block overflow-hidden" href="#">
+                <img class="img-fluid" src="https://static.vecteezy.com/system/resources/thumbnails/026/488/567/small_2x/boy-walking-school-class-morning-generate-ai-photo.jpg" alt="Gallery Image" />
+                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                  <h5 class="m-0">Campus Life</h5>
+                  <small class="text-primary">Explore More</small>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+              <a class="position-relative d-block overflow-hidden" href="#">
+                <img class="img-fluid" src="https://media.istockphoto.com/id/1330020252/photo/teenagers-walking-in-college-campus.jpg?s=612x612&w=0&k=20&c=ryMDYfHTVYJjSJ54nBEXkqic4w1lSF9Hq736BaeZ1b4=" alt="Gallery Image" />
+                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                  <h5 class="m-0">Events</h5>
+                  <small class="text-primary">Explore More</small>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+              <a class="position-relative d-block overflow-hidden" href="#">
+                <img class="img-fluid" src="https://img.freepik.com/free-photo/people-with-backpacks-walking-street_23-2147656211.jpg" alt="Gallery Image" />
+                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                  <h5 class="m-0">Workshops</h5>
+                  <small class="text-primary">Explore More</small>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+          <a class="position-relative d-block h-100 overflow-hidden" href="#">
+            <img class="img-fluid position-absolute w-100 h-100" src="https://media.istockphoto.com/id/1216618760/photo/aerial-over-the-university-of-north-carolina-in-the-spring.jpg?s=612x612&w=0&k=20&c=UA1TZrb5T4s_0vWcwPmclW0GuW5ex7G_Hp3TYTGkc2w=" alt="Gallery Image" style="object-fit: cover;" />
+            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+              <h5 class="m-0">Student Activities</h5>
+              <small class="text-primary">Explore More</small>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Gallery End -->
+{% endblock %}
