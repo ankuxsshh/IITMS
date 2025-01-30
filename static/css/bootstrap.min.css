@@ -84,7 +84,7 @@ h6,
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     line-height: 1.2;
-    color: #181d38
+    color: #d51a21
 }
 
 h1,
@@ -513,14 +513,14 @@ progress {
 }
 
 .display-3 {
-    font-size: calc(1.525rem + 3.3vw);
+    font-size: calc(2.525rem + 3.3vw);
     font-weight: 800;
     line-height: 1.2
 }
 
 @media (min-width: 1200px) {
     .display-3 {
-        font-size: 4rem
+        font-size: 5rem
     }
 }
 
@@ -3088,8 +3088,8 @@ fieldset:disabled .btn {
 
 .btn-primary:hover {
     color: #000;
-    background-color: #2bc5d4;
-    border-color: #1fc2d1
+    background-color: #cc373c78;
+    border-color: #cc373c78;
 }
 
 .btn-check:focus+.btn-primary,
@@ -3358,8 +3358,8 @@ fieldset:disabled .btn {
 
 .btn-light:hover {
     color: #000;
-    background-color: #f2fcfc;
-    border-color: #f2fbfc
+    background-color: #dc3546f4;
+    border-color: #dc3546f0
 }
 
 .btn-check:focus+.btn-light,
@@ -4749,7 +4749,7 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-toggler {
     margin: 30px;
-    color: #06bbcc;
+    color: #cd1024;
     border-color: rgba(0, 0, 0, 0)
 }
 
@@ -4795,7 +4795,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-dark .navbar-toggler {
-    color: #06bbcc;
+    color: #cd1024;
     border-color: rgba(255, 255, 255, 0)
 }
 
@@ -8185,7 +8185,7 @@ fieldset:disabled .btn {
 }
 
 .fs-5 {
-    font-size: 1.25rem !important
+    font-size: 1.1rem !important
 }
 
 .fs-6 {
@@ -8286,11 +8286,11 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #06BBCC !important
+    color: #cc373d !important
 }
 
 .text-secondary {
-    color: #6c757d !important
+    color: #cc373d !important
 }
 
 .text-success {
@@ -8342,7 +8342,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-    background-color: #06BBCC !important
+    background-color: #cc373d !important
 }
 
 .bg-secondary {
@@ -8370,7 +8370,7 @@ fieldset:disabled .btn {
 }
 
 .bg-dark {
-    background-color: #06BBCC !important;
+    background-color: #cc373d !important;
 }
 
 .bg-body {
