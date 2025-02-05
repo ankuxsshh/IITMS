@@ -34,6 +34,8 @@
 
     <!-- Template Stylesheet -->
     <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
@@ -47,9 +49,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-      <a href="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-        <img src="static/img/IITMSlogo.png" alt="">
-      </a>
+      <a href="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5"><img src="static/img/IITMSlogo.png" alt="" /></a>
       <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"><span class="navbar-toggler-icon"></span> M E N U</button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0">
@@ -65,11 +65,11 @@
     </nav>
     <!-- Navbar End -->
 
-      <!-- WhatsApp and Call Buttons -->
+    <!-- WhatsApp and Call Buttons -->
     <div class="position-fixed d-flex flex-column align-items-end" style="bottom: 0px; right: 20px; z-index: 2000;">
       <!-- WhatsApp Button -->
       <a href="" class="btn-whatsapp-pulse btn-whatsapp-pulse-border" style="text-decoration: none;"><i class="fa-brands fa-whatsapp" style="color: #fffefe; font-size: 0.7em;"></i></a>
-      <br>
+      <br />
       <!-- Call Button -->
       <a href="" class="btn-whatsapp-pulse mb-3" style="background: #000; text-decoration: none;"><span class="fa-solid fa-phone" style="font-size: 0.6em;"></span></a>
     </div>
@@ -113,22 +113,22 @@
             <h4 class="text-white mb-3">Gallery</h4>
             <div class="row g-2 pt-2">
               <div class="col-4">
-                <img class="img-fluid bg-light p-1" src="static/img/course-1.jpg" alt="" />
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/6246129/pexels-photo-6246129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
               </div>
               <div class="col-4">
-                <img class="img-fluid bg-light p-1" src="static/img/course-2.jpg" alt="" />
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/6689772/pexels-photo-6689772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
               </div>
               <div class="col-4">
-                <img class="img-fluid bg-light p-1" src="static/img/course-3.jpg" alt="" />
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/162540/career-firefighter-relaxing-job-162540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
               </div>
               <div class="col-4">
-                <img class="img-fluid bg-light p-1" src="static/img/course-2.jpg" alt="" />
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/1374455/pexels-photo-1374455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
               </div>
               <div class="col-4">
-                <img class="img-fluid bg-light p-1" src="static/img/course-3.jpg" alt="" />
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/48125/firefighter-extinguish-fire-extinction-48125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
               </div>
               <div class="col-4">
-                <img class="img-fluid bg-light p-1" src="static/img/course-1.jpg" alt="" />
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/47863/firefighter-extinguish-fire-extinction-47863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
               </div>
             </div>
           </div>
@@ -147,8 +147,8 @@
           <div class="row">
             <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
               &copy; <a class="" style="text-decoration: none">IITMS College</a> All Right Reserved.
-              <br>
-              Designed and Developed By <a class="" href="https://www.inspirezesttechnologies.com/" style="text-decoration: none" ><b>InspireZest Technologies</b></a>
+              <br />
+              Designed and Developed By <a class="" href="https://www.inspirezesttechnologies.com/" style="text-decoration: none"><b>InspireZest Technologies</b></a>
             </div>
             <div class="col-md-6 text-center text-md-end">
               <div class="footer-menu">
@@ -177,5 +177,10 @@
 
     <!-- Template Javascript -->
     <script src="{% static 'js/main.js' %}"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
   </body>
 </html>
